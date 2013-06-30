@@ -1,0 +1,11 @@
+minipad is a small etherpad clone.
+
+requirements
+============
+
+socket.io (run "npm install socket.io" to get it)
+
+setup
+=====
+
+To run the server, simply run "node server.js" and point your browser at : http://localhost:8000/socket.io/index.html

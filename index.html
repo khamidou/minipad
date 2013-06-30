@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minipad</title>
+    </head>
+    <body>
+        <h1>Minipad</h1>
+        
+        <script type="text/template" id="text-template">            
+            <textarea style="width: 400px; height: 200px;" placeholder=""><%= title %></textarea>
+        </script>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/underscore.js"></script>
+        <script type="text/javascript" src="js/backbone.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+        <div id="app"></div>
+    </body>
+</html>
